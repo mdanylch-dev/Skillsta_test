@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		188A28372C67C5D900C10B64 /* TCA_PlayerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188A28362C67C5D900C10B64 /* TCA_PlayerApp.swift */; };
+		188A28392C67C5D900C10B64 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188A28382C67C5D900C10B64 /* PlayerView.swift */; };
+		188A283B2C67C5DA00C10B64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188A283A2C67C5DA00C10B64 /* Assets.xcassets */; };
+		188A283E2C67C5DA00C10B64 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188A283D2C67C5DA00C10B64 /* Preview Assets.xcassets */; };
+		188A28462C67C71700C10B64 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 188A28452C67C71700C10B64 /* ComposableArchitecture */; };
+		188A284B2C67C9C500C10B64 /* PlayerFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188A284A2C67C9C500C10B64 /* PlayerFeature.swift */; };
+		188A28842C6AC63D00C10B64 /* 08 Make It Real Featuring Kylie Auld.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 188A28792C6AC63D00C10B64 /* 08 Make It Real Featuring Kylie Auld.mp3 */; };
+		188A28852C6AC63D00C10B64 /* 07 One Man Entourage.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 188A287A2C6AC63D00C10B64 /* 07 One Man Entourage.mp3 */; };
+		188A28862C6AC63D00C10B64 /* 01 Nightsport.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 188A287B2C6AC63D00C10B64 /* 01 Nightsport.mp3 */; };
+		188A28872C6AC63D00C10B64 /* 04 King Of The Rodeo Featuring Megan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 188A287C2C6AC63D00C10B64 /* 04 King Of The Rodeo Featuring Megan.mp3 */; };
+		188A28882C6AC63D00C10B64 /* 09 Move On Featuring Paul MacInnes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 188A287D2C6AC63D00C10B64 /* 09 Move On Featuring Paul MacInnes.mp3 */; };
+		188A28892C6AC63D00C10B64 /* 02 Tears Cried Featuring Kylie Auldi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 188A287E2C6AC63D00C10B64 /* 02 Tears Cried Featuring Kylie Auldi.mp3 */; };
+		188A288A2C6AC63D00C10B64 /* 03 Now That You Are Mine Featuring K.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 188A287F2C6AC63D00C10B64 /* 03 Now That You Are Mine Featuring K.mp3 */; };
+		188A288B2C6AC63D00C10B64 /* 05 Funky Buttercup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 188A28802C6AC63D00C10B64 /* 05 Funky Buttercup.mp3 */; };
+		188A288C2C6AC63D00C10B64 /* 06 Can't Help Myself Featuring Ty.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 188A28812C6AC63D00C10B64 /* 06 Can't Help Myself Featuring Ty.mp3 */; };
+		188A288D2C6AC63D00C10B64 /* 10 The Side Stepper.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 188A28822C6AC63D00C10B64 /* 10 The Side Stepper.mp3 */; };
+		188A288E2C6AC63D00C10B64 /* 11 Amen Brother.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 188A28832C6AC63D00C10B64 /* 11 Amen Brother.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		188A28332C67C5D900C10B64 /* TCA_Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCA_Player.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		188A28362C67C5D900C10B64 /* TCA_PlayerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCA_PlayerApp.swift; sourceTree = "<group>"; };
+		188A28382C67C5D900C10B64 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		188A283A2C67C5DA00C10B64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		188A283D2C67C5DA00C10B64 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		188A284A2C67C9C500C10B64 /* PlayerFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerFeature.swift; sourceTree = "<group>"; };
+		188A28792C6AC63D00C10B64 /* 08 Make It Real Featuring Kylie Auld.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "08 Make It Real Featuring Kylie Auld.mp3"; sourceTree = "<group>"; };
+		188A287A2C6AC63D00C10B64 /* 07 One Man Entourage.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "07 One Man Entourage.mp3"; sourceTree = "<group>"; };
+		188A287B2C6AC63D00C10B64 /* 01 Nightsport.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "01 Nightsport.mp3"; sourceTree = "<group>"; };
+		188A287C2C6AC63D00C10B64 /* 04 King Of The Rodeo Featuring Megan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "04 King Of The Rodeo Featuring Megan.mp3"; sourceTree = "<group>"; };
+		188A287D2C6AC63D00C10B64 /* 09 Move On Featuring Paul MacInnes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "09 Move On Featuring Paul MacInnes.mp3"; sourceTree = "<group>"; };
+		188A287E2C6AC63D00C10B64 /* 02 Tears Cried Featuring Kylie Auldi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "02 Tears Cried Featuring Kylie Auldi.mp3"; sourceTree = "<group>"; };
+		188A287F2C6AC63D00C10B64 /* 03 Now That You Are Mine Featuring K.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "03 Now That You Are Mine Featuring K.mp3"; sourceTree = "<group>"; };
+		188A28802C6AC63D00C10B64 /* 05 Funky Buttercup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "05 Funky Buttercup.mp3"; sourceTree = "<group>"; };
+		188A28812C6AC63D00C10B64 /* 06 Can't Help Myself Featuring Ty.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "06 Can't Help Myself Featuring Ty.mp3"; sourceTree = "<group>"; };
+		188A28822C6AC63D00C10B64 /* 10 The Side Stepper.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "10 The Side Stepper.mp3"; sourceTree = "<group>"; };
+		188A28832C6AC63D00C10B64 /* 11 Amen Brother.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "11 Amen Brother.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		188A28302C67C5D900C10B64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188A28462C67C71700C10B64 /* ComposableArchitecture in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		188A282A2C67C5D900C10B64 = {
+			isa = PBXGroup;
+			children = (
+				188A28352C67C5D900C10B64 /* TCA_Player */,
+				188A28342C67C5D900C10B64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		188A28342C67C5D900C10B64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				188A28332C67C5D900C10B64 /* TCA_Player.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		188A28352C67C5D900C10B64 /* TCA_Player */ = {
+			isa = PBXGroup;
+			children = (
+				188A28362C67C5D900C10B64 /* TCA_PlayerApp.swift */,
+				188A28472C67C7D700C10B64 /* PlayerFeature */,
+				188A28782C6A432600C10B64 /* Resources */,
+				188A283A2C67C5DA00C10B64 /* Assets.xcassets */,
+				188A283C2C67C5DA00C10B64 /* Preview Content */,
+			);
+			path = TCA_Player;
+			sourceTree = "<group>";
+		};
+		188A283C2C67C5DA00C10B64 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				188A283D2C67C5DA00C10B64 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		188A28472C67C7D700C10B64 /* PlayerFeature */ = {
+			isa = PBXGroup;
+			children = (
+				188A28382C67C5D900C10B64 /* PlayerView.swift */,
+				188A284A2C67C9C500C10B64 /* PlayerFeature.swift */,
+			);
+			path = PlayerFeature;
+			sourceTree = "<group>";
+		};
+		188A28782C6A432600C10B64 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				188A287B2C6AC63D00C10B64 /* 01 Nightsport.mp3 */,
+				188A287E2C6AC63D00C10B64 /* 02 Tears Cried Featuring Kylie Auldi.mp3 */,
+				188A287F2C6AC63D00C10B64 /* 03 Now That You Are Mine Featuring K.mp3 */,
+				188A287C2C6AC63D00C10B64 /* 04 King Of The Rodeo Featuring Megan.mp3 */,
+				188A28802C6AC63D00C10B64 /* 05 Funky Buttercup.mp3 */,
+				188A28812C6AC63D00C10B64 /* 06 Can't Help Myself Featuring Ty.mp3 */,
+				188A287A2C6AC63D00C10B64 /* 07 One Man Entourage.mp3 */,
+				188A28792C6AC63D00C10B64 /* 08 Make It Real Featuring Kylie Auld.mp3 */,
+				188A287D2C6AC63D00C10B64 /* 09 Move On Featuring Paul MacInnes.mp3 */,
+				188A28822C6AC63D00C10B64 /* 10 The Side Stepper.mp3 */,
+				188A28832C6AC63D00C10B64 /* 11 Amen Brother.mp3 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		188A28322C67C5D900C10B64 /* TCA_Player */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188A28412C67C5DA00C10B64 /* Build configuration list for PBXNativeTarget "TCA_Player" */;
+			buildPhases = (
+				188A282F2C67C5D900C10B64 /* Sources */,
+				188A28302C67C5D900C10B64 /* Frameworks */,
+				188A28312C67C5D900C10B64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TCA_Player;
+			packageProductDependencies = (
+				188A28452C67C71700C10B64 /* ComposableArchitecture */,
+			);
+			productName = TCA_Player;
+			productReference = 188A28332C67C5D900C10B64 /* TCA_Player.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		188A282B2C67C5D900C10B64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					188A28322C67C5D900C10B64 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = 188A282E2C67C5D900C10B64 /* Build configuration list for PBXProject "TCA_Player" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 188A282A2C67C5D900C10B64;
+			packageReferences = (
+				188A28442C67C71700C10B64 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
+			productRefGroup = 188A28342C67C5D900C10B64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				188A28322C67C5D900C10B64 /* TCA_Player */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		188A28312C67C5D900C10B64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188A28892C6AC63D00C10B64 /* 02 Tears Cried Featuring Kylie Auldi.mp3 in Resources */,
+				188A283E2C67C5DA00C10B64 /* Preview Assets.xcassets in Resources */,
+				188A288B2C6AC63D00C10B64 /* 05 Funky Buttercup.mp3 in Resources */,
+				188A28852C6AC63D00C10B64 /* 07 One Man Entourage.mp3 in Resources */,
+				188A288A2C6AC63D00C10B64 /* 03 Now That You Are Mine Featuring K.mp3 in Resources */,
+				188A28882C6AC63D00C10B64 /* 09 Move On Featuring Paul MacInnes.mp3 in Resources */,
+				188A28862C6AC63D00C10B64 /* 01 Nightsport.mp3 in Resources */,
+				188A288D2C6AC63D00C10B64 /* 10 The Side Stepper.mp3 in Resources */,
+				188A288C2C6AC63D00C10B64 /* 06 Can't Help Myself Featuring Ty.mp3 in Resources */,
+				188A288E2C6AC63D00C10B64 /* 11 Amen Brother.mp3 in Resources */,
+				188A283B2C67C5DA00C10B64 /* Assets.xcassets in Resources */,
+				188A28842C6AC63D00C10B64 /* 08 Make It Real Featuring Kylie Auld.mp3 in Resources */,
+				188A28872C6AC63D00C10B64 /* 04 King Of The Rodeo Featuring Megan.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		188A282F2C67C5D900C10B64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188A284B2C67C9C500C10B64 /* PlayerFeature.swift in Sources */,
+				188A28392C67C5D900C10B64 /* PlayerView.swift in Sources */,
+				188A28372C67C5D900C10B64 /* TCA_PlayerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		188A283F2C67C5DA00C10B64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		188A28402C67C5DA00C10B64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		188A28422C67C5DA00C10B64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TCA_Player/Preview Content\"";
+				DEVELOPMENT_TEAM = 59BZ6PY57P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nik.dany.TCA-Player";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		188A28432C67C5DA00C10B64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TCA_Player/Preview Content\"";
+				DEVELOPMENT_TEAM = 59BZ6PY57P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nik.dany.TCA-Player";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		188A282E2C67C5D900C10B64 /* Build configuration list for PBXProject "TCA_Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188A283F2C67C5DA00C10B64 /* Debug */,
+				188A28402C67C5DA00C10B64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		188A28412C67C5DA00C10B64 /* Build configuration list for PBXNativeTarget "TCA_Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188A28422C67C5DA00C10B64 /* Debug */,
+				188A28432C67C5DA00C10B64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		188A28442C67C71700C10B64 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.12.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		188A28452C67C71700C10B64 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 188A28442C67C71700C10B64 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 188A282B2C67C5D900C10B64 /* Project object */;
+}
