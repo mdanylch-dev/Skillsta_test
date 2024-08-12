@@ -1,2 +1,2 @@
 # Skillsta_test
-![Uploading Simulator Screen Recording - iPhone 14 Pro Max - 2024-08-13 at 02.34.13.gif…]()
+![]([https://github.com/Your_Repository_Name/Your_GIF_Name.gif](https://github.com/nikdany/Skillsta_test/blob/main/SimulatorScreen.gif))
