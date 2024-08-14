@@ -10,12 +10,6 @@ import ComposableArchitecture
 
 struct PlayerView: View {
     @Bindable var store: StoreOf<PlayerReducer>
-    @ObservedObject private var viewStore: ViewStoreOf<PlayerReducer>
-
-    init(store: StoreOf<PlayerReducer>) {
-        self.store = store
-        viewStore = ViewStore(store, observe: { $0 })
-    }
 
     var body: some View {
         VStack(spacing: 0) {
@@ -30,12 +24,6 @@ struct PlayerView: View {
         }
         .padding()
         .background(.white)
-        .task {
-
-        }
-//        .task {
-//          await store.send(.onTask).finish()
-//        }
     }
 
     private var info: some View {
